@@ -1,0 +1,75 @@
+/* input[type="checkbox"] {
+  display: none;
+} */
+
+.button {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  display: block;
+  width: 100%; /*pure button ki widht height */
+  height: 100%;
+  border-radius: 350px;
+  cursor: pointer;
+  transition: 0.2s ease background-color;
+}
+
+.button-orange {
+  background-color: #d94e1c;
+}
+
+.button-gray {
+  background-color: #585656;
+}
+
+.knob {
+  width: 58px; /*circle */
+  height: 58px;
+  background-color: #fff;
+  background-size: 700px;
+  position: relative;
+  border-radius: 290px;
+  transition: 0.4s ease left, 0.4s ease background-position;
+  z-index: 2;
+  top: 4px;
+}
+
+.knob-left {
+  left: 4px;
+}
+
+.knob-right {
+  left: 197px;
+}
+
+.subscribe,
+.alright {
+  position: absolute;
+  top: 47%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 100px;
+  z-index: 1;
+}
+
+.subscribe {
+  margin-left: 38px;
+  font-size: 44px; /*txt fnt */
+}
+
+.alright {
+  font-size: 44px; /*txt fnt */
+  margin-left: 80px; /*txt  close fnt */
+}
+
+.hideText {
+  visibility: hidden;
+  transition: 0.1s ease;
+}
+
+.showText {
+  visibility: visible;
+  transition: 0.4s ease;
+}

@@ -1,0 +1,365 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.App {
+  text-align: center;
+  margin-left: 28px;
+  overflow-x: hidden;
+  max-width: 1900px;
+}
+
+.second__header{
+  width: 100%;
+  margin: 19px 29px 29px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
+.header__card{
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+.header__card img{
+  width: 105px;
+  height: 105px;
+  margin: auto 0;
+}
+.header__card__body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 24px;
+  width: 339px;
+  margin-right: 24px;
+}
+.header__card__body h2{
+  font-size: 30px;
+}
+
+.console__modal .modal-dialog{
+  margin: 0;
+  margin-left: auto;
+  margin-top: 60px;
+  margin-right: 131px;
+}
+.order__modal .modal-dialog .modal-content,
+.console__modal .modal-dialog .modal-content,
+.newOrder__modal .modal-dialog .modal-content{
+  width: 580px;
+  height: 828px;
+  border-radius: 40px;
+  border: 9px solid #d8dcdc;
+  color: #595757;
+}
+
+.order__modal .modal-dialog .modal-content{
+  margin-top: 220px;
+  margin-left: 300px;
+}
+.newOrder__modal .modal-dialog .modal-content{
+  margin-top: 180px;
+  margin-left: 300px;
+}
+
+.cancel__modal .modal-dialog .modal-content{
+  width: 500px;
+  height: 322px;
+  border-radius: 40px;
+  border: 9px solid #d8dcdc;
+  margin-top: 700px;
+  margin-left: 340px;
+}
+
+ .close{
+  font-size: 60px;
+  width: 90px;
+}
+
+/* Order Modal */
+
+.modal-header{
+  border-bottom: none;
+}
+
+.modal__header{
+  width: 476px;
+  background: #595757;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  margin-top: -60px;
+}
+
+.modal__body{
+  display: flex;
+  padding: 21px 33px 0 22px;
+}
+
+.modal__body img{
+  margin: 0;
+  width: 88px;
+  height: 88px;
+  border-radius: 8px;
+}
+
+.modal__body__content{
+  font-weight: bold;
+  margin-left: 28px;
+  width: 391px;
+}
+
+.modal__body__heading{
+  font-size: 22px;
+  margin: 0;
+  /* margin-bottom: 8px; */
+  margin-bottom: 4px;
+}
+.modal__body__heading.other{
+  font-size: 22px;
+  margin-bottom: 3px;
+}
+.view{
+  width: 70px;
+  margin: 0;
+  margin-left: auto;
+}
+hr{
+  border-top: 4px solid #d8dcdc;
+  margin: 0;
+  margin-left: 10px;
+  margin-right: 22px;
+}
+
+.foodcontent{
+  margin-bottom: 4px;
+  margin-left: 93px;
+  font-weight: bold;
+  margin-top: 25px;
+  max-height: 290px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-right: 22px;
+}
+.foodcontent::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 23px;
+  background: #d8dcdc;
+}
+.foodcontent::-webkit-scrollbar-thumb {
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, .5);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+.foodcontent__body{
+  display: flex;
+  justify-content: space-between;
+  width: 427px;
+}
+.foodcontent__main{
+  font-size: 22px;
+  margin-left: 24px;
+}
+.foodcontent__sub{
+  margin-left: 140px;
+  list-style: disc;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.totalcount{
+  background: #595757;
+  width: 77px;
+  height: 77px;
+  color: #fff;
+  margin-right: 49px;
+}
+.totalcount p{
+  font-size: 58px;
+  margin-top: -9px;
+  text-align: center;
+}
+
+.modal__footer{
+  display: flex;
+  align-items: baseline;
+  margin-top: 9px;
+}
+.pickup{
+  display: flex;
+  align-items: baseline;
+  color: #f44f12;
+  margin-right: 22px;
+}
+.pickup__title{
+  font-size: 22px;
+  font-weight: bold;
+  margin-right: 24px;
+  margin-left: 61px;
+}
+.pickup h1{
+  font-weight: bold;
+  font-size: 46px;
+}
+.cancel{
+  width: 213px;
+  background: #f44f12;
+  color: #fff;
+  margin-top: 5px;
+  border-radius: 14px;
+}
+.cancel div{
+  font-size: 52px;
+  height: 75px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: -9px;
+}
+
+/* cancel Modal */
+
+.cancel__modal .modal__header {
+  width: 390px;
+  background: #f44f12;
+  margin-bottom: 15px;
+}
+.cancel__modal .close{
+  font-size: 70px;
+}
+.cancel__modal .modal__header div{
+  font-size: 52px;
+  font-weight: bolder;
+}
+.cancel__modal p{
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 22px;
+  margin-top: 4px;
+}
+
+.ok__btn{
+  margin: auto;
+  width: 196px;
+  font-size: 44px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  background: #f44f12;
+}
+
+.newOrder__modal .modal__header{
+  background-color: #f44f12;
+  font-size: 53px;
+  font-weight: bold;
+}
+.newOrder__modal .modal__body{
+  margin-bottom: 12px;
+}
+.newOrder__modal .modal__body__heading{
+  margin-bottom: 6px;
+}
+.newOrder__modal .pickup{
+  margin-top: 10px;
+}
+.newOrder__modal .pickup h1{
+  letter-spacing: 4px;
+}
+.newOrder__modal .pickup__title{
+  margin-right: 25px;
+}
+.newOrder__modal .pickup__icon{
+  color: #fff;
+  background-color: #f44f12;
+  width: 47px;
+  /* margin-top: 47px; */
+  height: 47px;
+  border-radius: 50%;
+  margin: 20px 10px 0 10px;
+}
+.newOrder__modal .pickup__icon::before{
+  content: '';
+  position: absolute;
+  width: 47px;
+  height: 5px;
+  background: #fff;
+  /* text-align: center; */
+  margin-top: 21px;
+}
+.newOrder__modal .pickup__icon.pickup__icon__plus::after{
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 47px;
+  background: #fff;
+  /* text-align: center; */
+  margin-left: 21px;
+}
+.accept__button{
+  background-color: #f44f12;
+  color: #fff;
+  font-size: 52px;
+  font-weight: bold;
+  width: 65%;
+  margin: auto;
+  text-align: center;
+  border-radius: 20px;
+  height: 85px;
+  margin-top: 10px;
+  margin-bottom: 38px;
+}
+.blackstrip__low{
+  width: 45%;
+  height: 12px;
+  border-radius: 6px;
+  margin: auto;
+  background-color: #595757;
+}
+.blackstrip__high{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  height: 150px;
+  width: 65%;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  margin: auto;
+  background-color: #595757;
+}
+.denial{
+  color: #fff;
+  text-align: center;
+  font-size: 54px;
+  font-weight: bold;
+}
+
+input[type="checkbox" i]{
+  background-color: #fff !important;
+}
+
+.shopdetail__modal .modal-dialog .modal-content{
+  margin-top: 220px;
+  margin-left: -630px;
+}
+
+.shop__img{
+  width: 540px;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 330px;
+  background: #000;
+}
+
+.shopmodal__openbutton{
+  width: 265px;
+  height: 67px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: 39px;
+}

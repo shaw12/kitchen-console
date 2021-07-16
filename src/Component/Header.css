@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.headerContainer {
+  font-size: 14px;
+  height: 162px;
+  padding-top: 24px;
+  padding-bottom: 22px;
+  padding-left: 19px;
+  margin-right: 47px;
+  border-bottom: solid #c7c9c9 7px;
+  text-align: left;
+  font-weight: bold;
+  color: #595757;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.headerLeftContainer {
+  width: 608px;
+  margin-right: 40px;
+}
+
+.headerRightContainer {
+  display: flex;
+  padding-left: 29px;
+  width: 662px;
+}
+
+.headerLeftContentFirstRow {
+  height: 41px;
+}
+
+.headerTitle {
+  font-size: 37px;
+}
+
+.headerLabNo {
+  font-size: 37px;
+}
+
+.headerId {
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 22px;
+  height: 33px;
+}
+.headerId span{
+  font-size: 36px;
+}
+
+.headerOpenButtonContainer {
+  float: right;
+  width: 259px;
+  height: 66px;
+  /* margin-right: 40px; */
+  margin-top: 20px;
+}
+
+.headerDateContainer {
+  height: 43px;
+  text-align: center;
+  margin-top: -5px;
+}
+
+.headerDateTxt {
+  font-size: 36px;
+}
+
+.headerLogoContainer {
+  width: 100%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.headerLogo {
+  width: 529px;
+  height: 79px;
+}
+
+/* .headerLogoContainer img{
+  margin: 0;
+} */
+
+.headerBellContainer {
+  position: relative;
+  top: 32px;
+  right: 20px;
+  height: 80px;
+  width: 96px;
+  cursor: pointer;
+  margin-right: 4px;
+}
+
+.headerBellLogo {
+  width: 70px;
+  height: 89px;
+  background-color: #fff;
+}
+
+.headerBellNumberContainer {
+  background-color: #d94e1c;
+  overflow: hidden;
+  width: 42px;
+  height: 44px;
+  border-radius: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -3px;
+  left: -8px;
+}
+
+p.headerBellNumber {
+  color: #fff;
+  font-size: 43px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+
+.headerRightSubContainer {
+  position: relative;
+  top: 0px;
+}
+
+.headerMidConteiner {
+  height: 120px;
+  width: 500px;
+  border-radius: 25px;
+  border: 7px solid #d8dcdc;
+}

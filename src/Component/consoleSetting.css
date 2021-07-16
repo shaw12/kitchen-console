@@ -1,0 +1,252 @@
+
+.inputLabel{
+    height: 46px;
+    font-size: 22px;
+    display: flex !important;
+    flex-direction: row;
+    margin-bottom: 15px;
+  }
+
+  
+
+.consoleInput{
+    border-radius: 10px;
+    width: 280px;
+    margin-left: 30px;
+    height: 36px;
+    /* margin-bottom: 15px; */
+  }
+  .loginId{
+    /* width:80px; */
+    margin-left: -10px;
+  }
+
+/* input{
+    width: 25px;
+    height: 25px;
+} */
+.ringTone{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.console__modal ul{
+    font-weight: bold;
+    width: 300px;
+    margin-top: -37px;
+    max-height: 294px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-right: 22px;
+    background-color: #d8dcdc;
+    
+    margin-left: 164px;
+    
+}
+.console__modal li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 26px;
+    padding-left: 20px;
+    margin-right: 10px;
+
+}
+/* Button{
+    width: 249px;
+    height: 63px;
+    border-radius: 8px;
+    margin-right: 31px !important;
+    
+} */
+.console__modal ul::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 23px;
+    background: #d8dcdc;
+  }
+.console__modal ul::-webkit-scrollbar-thumb {
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+  }
+ /* .console__modal input[type=checkbox] + label {
+    display: block;
+    margin: 0.2em;
+    cursor: pointer;
+    font-size: 22px;
+    padding: 0.2em;
+  }
+   */
+  /* input[type=checkbox] {
+    display: none;
+  }
+  
+  input[type=checkbox] + label:after {
+    content: "\2714";
+    border: 4px solid #595757;
+    display: flex;
+    flex-direction: row;
+    margin-left: 94%;
+    /* justify-content: flex-start; 
+    width: 1.5em;
+    height: 1.5em;
+    padding-left: 2px;
+    margin-top: -9%;
+    margin-bottom: 15px;
+    margin-right: 2em;
+    vertical-align: bottom;
+    color: #595656;
+    transition: .2s;
+  }
+  
+  input[type=checkbox] + label:active:before {
+    transform: scale(0);
+  }
+  
+  input[type=checkbox]:checked + label:after {
+    background-color: white;
+    border-color: #565757;
+    color: #fff;
+  } */
+
+  .col{
+      width: 350px !important;
+      font-size: 20px;
+      margin-left: -10px;
+  }
+  .consoleInput1{
+      width: 70%;
+      border-radius: 8px;
+    height: 35px;
+
+  }
+  .consoleInput2{
+    width: 70%;
+    border-radius: 8px;
+    height: 35px;
+  }
+  .ring{
+      font-size: 20px;
+      margin-left: 10px;
+      margin-top: 32px;
+  }
+  .colHeight{
+      height: 35px;
+  }
+
+
+/* new css */
+form{
+  margin-left: 50px;
+  font-size: 21px;
+  font-weight: bold;
+  margin-top: 27px;
+}
+.form__row{
+  display: flex;
+  align-items: center;
+}
+input[type=password]{
+  width: 330px;
+  height: 46px;
+  border-color: #565757;
+  border-radius: 12px;
+  padding-left: 8px;
+  font-size: 92px;
+  padding-bottom: 25px;
+  padding-right: 36px;
+}
+.form__row:nth-child(1){
+  margin-bottom: 15px;
+}
+.form__row:nth-child(1) input{
+  margin-left: 35px;
+}
+.form__row:nth-child(2){
+  margin-bottom: 28px;
+}
+.form__row:nth-child(2) input{
+  margin-left: 15px;
+}
+.checkbox__row{
+  width: 410px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.ringtone__row{
+  align-items: flex-start;
+  margin-top: 22px;
+}
+.ringtone__row label{
+  font-size: 23px;
+}
+.ringtone__row ul{
+  margin-top: 0;
+  margin-left: 10px;
+  width: 320px;
+}
+input:focus{
+  outline: none;
+}
+label.creds{
+  font-size: 26px;
+}
+.ringtone__active{
+  background-color: #888888;
+}
+.savebutton{
+  margin-left: auto;
+  background-color: #f44f12;
+  width: 249px;
+  color: #fff;
+  margin-right: 31px;
+  border-radius: 16px;
+}
+.savebutton div{
+  height: 63px;
+  text-align: center;
+  font-size: 47px;
+}
+
+
+/* new checkbox css */
+.console__modal .checkbox{
+  border: none;
+}
+
+.checkbox .tag {
+  color: #595757;
+  display: flex;
+  
+  font-weight: bold;
+  position: relative;
+  width: 120px;
+}
+.console__modal .checkbox label {
+  display: flex;
+}
+.checkbox .input-assumpte {
+  display: none;
+}
+.input-assumpte + label {
+  -webkit-appearance: none;
+  background-color: #fff;
+  border: 3px solid #575656;
+  width:26px;
+  height:26px;
+  display: flex;
+  position: relative;
+  border-radius: 2px;
+}
+.input-assumpte:checked + label:after {
+
+  content: "✔";
+  font-size:21px;
+  color: #575656;
+  left: -3px;
+  font-weight:900;
+  position: absolute;
+  padding-left:4px;
+  top: -7px;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
